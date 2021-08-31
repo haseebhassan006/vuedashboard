@@ -81,14 +81,7 @@
 <script>
 
    export default {
-             data:() => ({
-        value: ['1', '2', '3'],
-        value2: ['4',],
-        value3: ['1', '4', '5', '6'],
-      }),
-
-
-        mounted() {
+      mounted() {
             console.log('Component mounted.')
         }
     }
