@@ -341,12 +341,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("div", [
-        _c("div", { staticClass: "page-header" }, [
-          _c("div", { staticClass: "page-leftheader" }, [
-            _c("h4", { staticClass: "page-title mb-0 text-primary" }, [
-              _vm._v("Dashboard")
-            ])
+      _c("div", { staticClass: "page-header" }, [
+        _c("div", { staticClass: "page-leftheader" }, [
+          _c("h4", { staticClass: "page-title mb-0 text-primary" }, [
+            _vm._v("Dashboard")
           ])
         ])
       ]),

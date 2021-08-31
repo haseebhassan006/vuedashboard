@@ -1,13 +1,13 @@
 <template>
 <div>
-    <div>
-        <div class="page-header">
-							<div class="page-leftheader">
-								<h4 class="page-title mb-0 text-primary">Dashboard</h4>
-							</div>
 
-		</div>
-    </div>
+    <div class="page-header">
+			<div class="page-leftheader">
+				<h4 class="page-title mb-0 text-primary">Dashboard</h4>
+			</div>
+
+	</div>
+
     <div class="row">
 							<div class="col-xl-3 col-lg-6 col-md-6 col-xm-12">
 								<div class="card overflow-hidden dash1-card border-0 bg-primary-transparent">
@@ -89,9 +89,9 @@
 									</div>
 								</div>
 							</div>
-						</div>
+	</div>
 
-						<div class="row">
+	<div class="row">
 							<div class="col-xl-12 col-lg-12 col-md-12">
 								<div class="card">
 									<div class="card-header">
@@ -225,7 +225,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+	</div>
 </div>
 </template>
 <script>
