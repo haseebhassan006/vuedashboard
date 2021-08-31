@@ -102,7 +102,8 @@
 <script src="{{ asset('/assets/js/chart.flot.sampledata.js') }}"></script>
 
 <!-- INTERNAL Chart js -->
-
+<script src="{{ asset('/assets/plugins/chart/chart.bundle.js') }}"></script>
+<script src="{{ asset('/assets/plugins/chart/utils.js') }}"></script>
 
 <!-- INTERNAL Apexchart js -->
 <script src="{{ asset('/assets/js/apexcharts.js') }}"></script>
