@@ -1,37 +1,16 @@
 <template>
-
-
-				<!--aside open-->
-
    <div class="page">
-			<div class="page-main">					<!--aside closed-->
-<sidebar></sidebar>
-				<!-- App-Content -->
+			<div class="page-main">
+                 <sidebar></sidebar>
 				<div class="app-content main-content">
 					<div class="side-app">
-
-						<!--app header-->
                         <navhead></navhead>
-
-						<!--/app header-->
-
-						<!--Page header-->
-
-						<!--End Page header-->
-
-    <router-view></router-view>
-
+                        <router-view></router-view>
 					</div>
 				</div>
-				<!-- End app-content-->
-
-
-				<!--Footer-->
-  <footer></footer>
-				<!-- End Footer-->
-
-		</div>
-        </div>
+                <footer></footer>
+		   </div>
+   </div>
  </template>
 
 <script>

@@ -233,7 +233,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("td", [
                         _c("a", { staticClass: "btn btn-secondary" }, [
-                          _vm._v("Edit")
+                          _c("i", { staticClass: "zmdi zmdi-edit" })
                         ])
                       ])
                     ]),
@@ -249,7 +249,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("td", [
                         _c("a", { staticClass: "btn btn-secondary" }, [
-                          _vm._v("Edit")
+                          _c("i", { staticClass: "zmdi zmdi-edit" })
                         ])
                       ])
                     ]),
@@ -265,7 +265,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("td", [
                         _c("a", { staticClass: "btn btn-secondary" }, [
-                          _vm._v("Edit")
+                          _c("i", { staticClass: "zmdi zmdi-edit" })
                         ])
                       ])
                     ]),
@@ -281,7 +281,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("td", [
                         _c("a", { staticClass: "btn btn-secondary" }, [
-                          _vm._v("Edit")
+                          _c("i", { staticClass: "zmdi zmdi-edit" })
                         ])
                       ])
                     ]),
@@ -297,7 +297,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("td", [
                         _c("a", { staticClass: "btn btn-secondary" }, [
-                          _vm._v("Edit")
+                          _c("i", { staticClass: "zmdi zmdi-edit" })
                         ])
                       ])
                     ])
