@@ -79,6 +79,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -209,7 +215,9 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("th", [_vm._v("Position")]),
                       _vm._v(" "),
-                      _c("th", [_vm._v("Salary")])
+                      _c("th", [_vm._v("Salary")]),
+                      _vm._v(" "),
+                      _c("th", [_vm._v("Action")])
                     ])
                   ]),
                   _vm._v(" "),
@@ -221,7 +229,13 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("td", [_vm._v("Associate Developer")]),
                       _vm._v(" "),
-                      _c("td", [_vm._v("$450,870")])
+                      _c("td", [_vm._v("$450,870")]),
+                      _vm._v(" "),
+                      _c("td", [
+                        _c("a", { staticClass: "btn btn-secondary" }, [
+                          _vm._v("Edit")
+                        ])
+                      ])
                     ]),
                     _vm._v(" "),
                     _c("tr", [
@@ -231,7 +245,13 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("td", [_vm._v("Account manager")]),
                       _vm._v(" "),
-                      _c("td", [_vm._v("$230,540")])
+                      _c("td", [_vm._v("$230,540")]),
+                      _vm._v(" "),
+                      _c("td", [
+                        _c("a", { staticClass: "btn btn-secondary" }, [
+                          _vm._v("Edit")
+                        ])
+                      ])
                     ]),
                     _vm._v(" "),
                     _c("tr", [
@@ -241,7 +261,13 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("td", [_vm._v("Senior Javascript Developer")]),
                       _vm._v(" "),
-                      _c("td", [_vm._v("$55,300")])
+                      _c("td", [_vm._v("$55,300")]),
+                      _vm._v(" "),
+                      _c("td", [
+                        _c("a", { staticClass: "btn btn-secondary" }, [
+                          _vm._v("Edit")
+                        ])
+                      ])
                     ]),
                     _vm._v(" "),
                     _c("tr", [
@@ -251,7 +277,13 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("td", [_vm._v("Accountant")]),
                       _vm._v(" "),
-                      _c("td", [_vm._v("$234,100")])
+                      _c("td", [_vm._v("$234,100")]),
+                      _vm._v(" "),
+                      _c("td", [
+                        _c("a", { staticClass: "btn btn-secondary" }, [
+                          _vm._v("Edit")
+                        ])
+                      ])
                     ]),
                     _vm._v(" "),
                     _c("tr", [
@@ -261,7 +293,13 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("td", [_vm._v("Junior Technical Author")]),
                       _vm._v(" "),
-                      _c("td", [_vm._v("$43,198")])
+                      _c("td", [_vm._v("$43,198")]),
+                      _vm._v(" "),
+                      _c("td", [
+                        _c("a", { staticClass: "btn btn-secondary" }, [
+                          _vm._v("Edit")
+                        ])
+                      ])
                     ])
                   ])
                 ]

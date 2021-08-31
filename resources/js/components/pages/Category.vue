@@ -22,6 +22,7 @@
 													<th>Name</th>
 													<th>Position</th>
 													<th>Salary</th>
+                                                    <th>Action</th>
 												</tr>
 											</thead>
 											<tbody>
@@ -30,30 +31,35 @@
 													<td>Joan Powell</td>
 													<td>Associate Developer</td>
 													<td>$450,870</td>
+                                                    <td><a class="btn btn-secondary">Edit</a></td>
 												</tr>
 												<tr>
 													<th scope="row">2</th>
 													<td>Gavin Gibson</td>
 													<td>Account manager</td>
 													<td>$230,540</td>
+                                                        <td><a class="btn btn-secondary">Edit</a></td>
 												</tr>
 												<tr>
 													<th scope="row">3</th>
 													<td>Julian Kerr</td>
 													<td>Senior Javascript Developer</td>
 													<td>$55,300</td>
+                                                        <td><a class="btn btn-secondary">Edit</a></td>
 												</tr>
 												<tr>
 													<th scope="row">4</th>
 													<td>Cedric Kelly</td>
 													<td>Accountant</td>
 													<td>$234,100</td>
+                                                    <td><a class="btn btn-secondary">Edit</a></td>
 												</tr>
 												<tr>
 													<th scope="row">5</th>
 													<td>Samantha May</td>
 													<td>Junior Technical Author</td>
 													<td>$43,198</td>
+                                                        <td><a class="btn btn-secondary">Edit</a></td>
 												</tr>
 											</tbody>
 										</table>
