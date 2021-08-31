@@ -17,6 +17,17 @@ const routes = [{
         component: () => setComponent("Category"),
         name: "categories",
     },
+    {
+        path: '/products',
+        component: () => setComponent("Product"),
+        name: "products",
+    },
+    {
+        path: '/tags',
+        component: () => setComponent("Tag"),
+        name: "tags",
+    },
+
 
 
 ]

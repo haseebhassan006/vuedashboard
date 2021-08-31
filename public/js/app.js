@@ -137,6 +137,18 @@ var routes = [{
     return setComponent("Category");
   },
   name: "categories"
+}, {
+  path: '/products',
+  component: function component() {
+    return setComponent("Product");
+  },
+  name: "products"
+}, {
+  path: '/tags',
+  component: function component() {
+    return setComponent("Tag");
+  },
+  name: "tags"
 }]; // 3. Create the router instance and pass the `routes` option
 // You can pass in additional options here, but let's
 // keep it simple for now.
