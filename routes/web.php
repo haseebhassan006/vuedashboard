@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Notifications\RegisterNotification;
+use Illuminate\Support\Facades\Notification;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,4 +25,8 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
-// Route::get('/notification',);
+ Route::get('/notification',
+function(){
+    Notification::send('user', new RegisterNotification('letter'));
+}
+);

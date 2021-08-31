@@ -241,7 +241,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("td", [
                         _c("a", { staticClass: "btn btn-secondary" }, [
-                          _c("i", { staticClass: "zmdi zmdi-edit" })
+                          _c("i", { staticClass: "fa fa-pencil-square-o" })
                         ])
                       ])
                     ]),
@@ -257,7 +257,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("td", [
                         _c("a", { staticClass: "btn btn-secondary" }, [
-                          _c("i", { staticClass: "zmdi zmdi-edit" })
+                          _c("i", { staticClass: "fa fa-pencil-square-o" })
                         ])
                       ])
                     ]),
@@ -273,7 +273,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("td", [
                         _c("a", { staticClass: "btn btn-secondary" }, [
-                          _c("i", { staticClass: "zmdi zmdi-edit" })
+                          _c("i", { staticClass: "fa fa-pencil-square-o" })
                         ])
                       ])
                     ]),
@@ -289,7 +289,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("td", [
                         _c("a", { staticClass: "btn btn-secondary" }, [
-                          _c("i", { staticClass: "zmdi zmdi-edit" })
+                          _c("i", { staticClass: "fa fa-pencil-square-o" })
                         ])
                       ])
                     ]),
@@ -305,7 +305,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("td", [
                         _c("a", { staticClass: "btn btn-secondary" }, [
-                          _c("i", { staticClass: "zmdi zmdi-edit" })
+                          _c("i", { staticClass: "fa fa-pencil-square-o" })
                         ])
                       ])
                     ])
