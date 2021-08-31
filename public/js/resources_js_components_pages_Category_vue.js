@@ -189,7 +189,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "page-header" }, [
           _c("div", { staticClass: "page-leftheader" }, [
             _c("h4", { staticClass: "page-title mb-0 text-primary" }, [
-              _vm._v("Dashboard")
+              _vm._v("Category")
             ])
           ])
         ])

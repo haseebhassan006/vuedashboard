@@ -3,7 +3,7 @@
   <div>
         <div class="page-header">
 							<div class="page-leftheader">
-								<h4 class="page-title mb-0 text-primary">Dashboard</h4>
+								<h4 class="page-title mb-0 text-primary">Category</h4>
 							</div>
 
 		</div>
