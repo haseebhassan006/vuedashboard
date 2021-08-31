@@ -85,7 +85,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  data: function data() {
+    return {
+      value: ['1', '2', '3'],
+      value2: ['4'],
+      value3: ['1', '4', '5', '6']
+    };
+  },
   mounted: function mounted() {
     console.log('Component mounted.');
   }
@@ -191,7 +204,9 @@ var staticRenderFns = [
             _c("h4", { staticClass: "page-title mb-0 text-primary" }, [
               _vm._v("Category")
             ])
-          ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "page-rightheader" })
         ])
       ]),
       _vm._v(" "),

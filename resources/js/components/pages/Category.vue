@@ -5,6 +5,12 @@
 							<div class="page-leftheader">
 								<h4 class="page-title mb-0 text-primary">Category</h4>
 							</div>
+                            <div class="page-rightheader">
+                                 
+
+
+
+                            </div>
 
 		</div>
     </div>
@@ -75,6 +81,12 @@
 <script>
 
    export default {
+             data:() => ({
+        value: ['1', '2', '3'],
+        value2: ['4',],
+        value3: ['1', '4', '5', '6'],
+      }),
+
 
         mounted() {
             console.log('Component mounted.')
