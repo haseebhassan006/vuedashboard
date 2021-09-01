@@ -8,6 +8,7 @@
                             <div class="page-rightheader">
                                  
 
+  <vs-button @click="popupActivo4=true" color="danger" type="border">Open fullscreen popup</vs-button>
 
 
                             </div>
@@ -76,14 +77,21 @@
 							</div>
 						</div>
 
+
+
 </div>
 </template>
 <script>
 
    export default {
-      mounted() {
-            console.log('Component mounted.')
-        }
+         data(){
+
+    return {
+      popupActivo4:false
+    }
+  },
+
+
     }
 
 </script>

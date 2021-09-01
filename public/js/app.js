@@ -81767,6 +81767,16 @@ var map = {
 		"./resources/js/components/parts/Header.vue",
 		9
 	],
+	"./components/parts/Modal": [
+		"./resources/js/components/parts/Modal.vue",
+		9,
+		"resources_js_components_parts_Modal_vue"
+	],
+	"./components/parts/Modal.vue": [
+		"./resources/js/components/parts/Modal.vue",
+		9,
+		"resources_js_components_parts_Modal_vue"
+	],
 	"./components/parts/Navbar": [
 		"./resources/js/components/parts/Navbar.vue",
 		9
@@ -81949,7 +81959,7 @@ module.exports = webpackAsyncContext;
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_components_ExampleComponent_vue":1,"resources_js_components_pages_Category_vue":1,"resources_js_components_pages_Dashboard_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_components_ExampleComponent_vue":1,"resources_js_components_pages_Category_vue":1,"resources_js_components_pages_Dashboard_vue":1,"resources_js_components_parts_Modal_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
